@@ -16,11 +16,11 @@ CREATE TABLE `orderdetails` (
 
 
 INSERT INTO `orderdetails` (`ProductID`, `OrderID`, `Quantity`, `UnitPrice`, `Discount`, `StatusID`) VALUES
-(1, 1, 5, 120.00, 0.10, 1),
-(2, 2, 10, 220.00, 0.15, 1),
-(3, 3, 7, 170.00, 0.05, 2),
-(4, 4, 12, 320.00, 0.20, 2),
-(5, 5, 8, 140.00, 0.08, 1);
+(2, 6, 5, 150.00, 0.10, 7),
+(5, 8, 10, 290.00, 0.15, 1),
+(6, 3, 7, 170.00, 0.05, 2),
+(2, 4, 12, 230.00, 0.20, 2),
+(6, 5, 8, 140.00, 0.08, 1);
 
 
 ALTER TABLE `orderdetails`
